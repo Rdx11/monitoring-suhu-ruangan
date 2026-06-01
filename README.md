@@ -177,6 +177,16 @@ public static function calculateStatus(float $temperature, float $humidity): str
 
 ## 🔌 Setup ESP32
 
+### Struktur File
+
+File ESP32 berada di folder `ESP32_CODE/`:
+```
+ESP32_CODE/
+└── ESP32_CODE.ino
+```
+
+**Catatan:** Arduino IDE memerlukan file `.ino` berada di dalam folder dengan nama yang sama.
+
 ### 1. Install Arduino IDE
 
 Download dari: https://www.arduino.cc/en/software
@@ -212,7 +222,7 @@ GND (Pin 4)  → GND
 
 ### 5. Konfigurasi ESP32_CODE.ino
 
-Edit file `ESP32_CODE.ino`:
+Buka file `ESP32_CODE/ESP32_CODE.ino` di Arduino IDE, lalu edit:
 
 ```cpp
 // WiFi Configuration
